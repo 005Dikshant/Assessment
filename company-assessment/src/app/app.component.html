@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 style="color:blue">Analog Clock</h2>
+      <h1>Current Time: {{ currentTime | date:'medium' }}</h1>
+      <app-analog-clock></app-analog-clock>
+    </div>
+    <div class="col-md-6">
+      <h2 style="color:cadetblue">Digital Clock</h2>
+      <app-digital-clock></app-digital-clock>
+    </div>
+  </div>
+</div>

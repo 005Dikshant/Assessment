@@ -1,0 +1,46 @@
+  .analog-clock {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(clock.jpeg) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+  }
+
+
+  .hour-hand,
+  .minute-hand,
+  .second-hand {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  
+  .hour-hand {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+  }
+  
+  .minute-hand {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+  }
+
+  .second-hand {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+    
+  }
+  
